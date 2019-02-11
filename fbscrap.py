@@ -23,8 +23,8 @@ urllib.request.install_opener(opener)
 
 authentication_url = "https://m.facebook.com/login.php"
 payload = {
-    'email': 'tushar97maheshwari@gmail.com',
-    'pass': 'bunny4128'
+    'email': '',
+    'pass': ''
 }
 # parse the data
 data = urllib.parse.urlencode(payload).encode('utf-8')
